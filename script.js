@@ -8,7 +8,7 @@ form.addEventListener('submit', (event) => {
   const hadir = document.getElementById('hadir').checked ? 'Hadir' : 'Tidak Hadir';
 
   // Ganti dengan URL webhook Google Apps Script Anda
-  const webhookUrl = 'https://script.google.com/macros/s/AKfycbyBXt5wnHKEEbr6upG5sebWS2GbNQR6O4HdzZlHAsaISK-AP7dzVaEhrWIFGxEb3tgofw/exec';
+  const webhookUrl = 'https://script.google.com/macros/s/AKfycbylJYE71b4opeHeKErsyyHvTyqdqg0vtu5jJj1Fdas1grcBXTWDVucuwZS-xg7OoPO0Ig/exec';
 
   fetch(webhookUrl, {
     method: 'POST',
